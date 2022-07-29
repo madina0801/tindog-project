@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TinDog</title>
+				<!-- Google Fonts -->
 				<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+				<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu&display=swap" rel="stylesheet">				<!-- Font awesome -->
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+				<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+				<!-- Bootstrap and style -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
 				<link rel="stylesheet" href="style.css">
   </head>
   <body>
 				<section id="title">
-					<div class="container">
+					<div class="container-fluid">
 					<!-- Nav Bar -->
 					<nav class="navbar navbar-expand-lg navbar-dark">
 						<a href="" class="navbar-brand">tindog</a>
@@ -51,12 +55,12 @@
 
 					<div class="col-lg-6">
 							<h1>Meet new and interesting dogs nearby.</h1>
-							<button type="button">Download</button>
-							<button type="button">Download</button>
+							<button class="btn btn-dark btn-lg donwnload-button" type="button"><i class="me-1 fab fa-apple"></i>Download</button>
+							<button class="btn btn-outline-light btn-lg download-button" type="button"><i class="me-1 fab fa-google-play"></i>Download</button>
 					</div>
 
 					<div class="col-lg-6">
-							<img src="images/iphone6.png" alt="iphone-mockup">
+							<img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
 					</div>
 
 				</div>
@@ -68,16 +72,25 @@
 			<!-- Features -->
 	
 			<section id="features">
-	
-					<h3>Easy to use.</h3>
-					<p>So easy to use, even your dog could do it.</p>
-	
-					<h3>Elite Clientele</h3>
-					<p>We have all the dogs, the greatest dogs.</p>
-	
-					<h3>Guaranteed to work.</h3>
-					<p>Find the love of your dog's life or your money back.</p>
-	
+
+				<div class="row ms-auto">
+					<div class="features-col col-md-12 col-lg-4">
+						<i class="features-icon fas fa-check-circle"></i>
+						<h3 class="features-title">Easy to use.</h3>
+						<p class="features-text">So easy to use, even your dog could do it.</p>
+					</div>
+					<div class="features-col col-md-12 col-lg-4">
+						<i class="features-icon fas fa-bullseye"></i>
+						<h3 class="features-title">Elite Clientele</h3>
+						<p class="features-text">We have all the dogs, the greatest dogs.</p>
+					</div>
+					<div class="features-col col-md-12 col-lg-4">
+						<i class="features-icon fas fa-heart"></i>
+						<h3 class="features-title">Guaranteed to work.</h3>
+						<p class="features-text">Find the love of your dog's life or your money back.</p>
+					</div>
+				</div>
+
 			</section>
 	
 	
@@ -85,7 +98,7 @@
 	
 			<section id="testimonials">
 	
-					<h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+					<h2>I no longer have to sniff other dogs for love. I've found the prettiest Corgi on TinDog. Woof.</h2>
 					<img src="images/dog-img.jpg" alt="dog-profile">
 					<em>Pebbles, New York</em>
 	
