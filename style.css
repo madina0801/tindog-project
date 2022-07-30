@@ -7,7 +7,6 @@ body {
 #title {
 	background-color: #ff4c68;
   color: #fff;
-  overflow: hidden;
 }
 
 .container-fluid {
@@ -48,7 +47,6 @@ h1 {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
-  margin-bottom: -40%;
 }
 
 /* Features section */
@@ -120,3 +118,15 @@ h1 {
 }
 
 /* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.pricing-btn {
+  margin-top: 2rem;
+}
