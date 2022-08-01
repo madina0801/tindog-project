@@ -1,22 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Headings and text */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 /* Title section */
 
 #title {
+  text-align: left;
 	background-color: #ff4c68;
   color: #fff;
 }
 
-.container-fluid {
+#title .container-fluid {
 	padding: 3% 15% 7%;
-}
-
-h1 {
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
 }
 
 /* Navigation Bar */
@@ -57,13 +83,15 @@ h1 {
 
 /* Features section */
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 
+.features-title {
+  font-size: 1.3rem;
+}
+
 .features-col {
-  text-align: center;
   padding: 5%;
 }
 
@@ -79,28 +107,13 @@ h1 {
   cursor: pointer;
 }
 
-.features-title {
-  font-size: 1.2rem;
-  font-weight: 800;
-}
-
-.features-text {
-  color: #8f8f8f;
-}
-
 /* Testimonials section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 .testimonial-text {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2rem;
   line-height: 1.5;
@@ -116,7 +129,6 @@ h1 {
 /* Press Section */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -128,7 +140,10 @@ h1 {
 /* Pricing Section */
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.pricing-card-title {
+  font-weight: 500;
 }
 
 .pricing-col {
@@ -142,35 +157,16 @@ h1 {
 /* Call to Action Section */
 #cta {
   background-color: #ff4c68;
-  text-align: center;
-  padding: 7% 15%;
-}
-
-.cta-title {
-  font-size: 3.5rem;
-  font-weight: 900;
   color: #fff;
-  line-height: 1.5;
 }
-
-.cta-btn {
-  margin: 3rem 1rem 0;
-}
-
 
 /* Footer */
-#footer {
-  text-align: center;
-  padding: 5% 15%;
-}
-
 .sm-icon {
-  margin: 0 1rem 1.5rem 0.1rem;
+  margin: 20px 10px;
 }
 
 .copyright {
   font-weight: 600;
-  color: #8f8f8f;
 }
 
 /* Responsiveness */
