@@ -10,7 +10,7 @@ body {
 }
 
 .container-fluid {
-	padding: 3% 15%;
+	padding: 3% 15% 7%;
 }
 
 h1 {
@@ -44,14 +44,22 @@ h1 {
 }
 
 /* Title Image */
+.title-div {
+  position: relative;
+}
+
 .title-img {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features section */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .features-col {
@@ -129,4 +137,50 @@ h1 {
 
 .pricing-btn {
   margin-top: 2rem;
+}
+
+/* Call to Action Section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.cta-btn {
+  margin: 3rem 1rem 0;
+}
+
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.sm-icon {
+  margin: 0 1rem 1.5rem 0.1rem;
+}
+
+.copyright {
+  font-weight: 600;
+  color: #8f8f8f;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
 }
